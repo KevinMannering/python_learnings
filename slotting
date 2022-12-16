@@ -1,0 +1,6 @@
+gelsons_slotting_per_sku = 1500
+print("congrats on getting into gelsons!")
+brand_gelsons_num_skus = input("how many skus are you launching with?")
+brand_gelsons_slotting = gelsons_slotting_per_sku * int(brand_gelsons_num_skus)
+print("your slotting is going to be:")
+print(brand_gelsons_slotting)
